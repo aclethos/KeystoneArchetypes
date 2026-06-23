@@ -1,160 +1,154 @@
 {
-  "id": "southern-realm-games",
-  "title": "Southern Realm Games Playtest",
-  "version": "1.0.3",
-  "url": "https://github.com/aclethos/Southern-Realm-Games",
-  "download": "https://github.com/aclethos/Southern-Realm-Games/archive/refs/heads/master.zip",
-  "manifest": "https://raw.githubusercontent.com/aclethos/Southern-Realm-Games/master/module.json",
+  "id": "disc-rider",
+  "title": "Keystone Archetypes - The Disc Rider",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "14",
+    "verified": "14"
   },
   "authors": [
     {
-      "name": "Dustin Voss",
-      "discord": "Aclethos"
+      "name": "Obscura",
+      "url": "https://www.patreon.com/c/tabletopobscura",
+      "discord": "tabletop.obscura",
+      "flags": {}
     },
     {
-      "name": "Matthew C. Ninness",
-      "discord": "tabletop.obscura"
-    },
-    {
-      "name": "Dan Hutton",
-      "discord": "dantalkygamer"
-    },
-    {
-      "name": "Shawn Pommier",
-      "discord": "eldritchdream"
-    },
-    {
-      "name": "Simon Hunter",
-      "discord": "simon.the.hunter"
+      "name": "DanTalksGames",
+      "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system"
-      }
-    ]
+  "flags": {
+    "canUpload": true
   },
   "packs": [
     {
-      "name": "legendary-luminaries-actions",
-      "label": "Legendary Luminaries - Actions",
-      "path": "packs/legendary-luminaries-actions",
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e"
+      "flags": {}
     },
     {
-      "name": "legendary-luminaries-archetypes",
-      "label": "Legendary Luminaries - Archetypes",
-      "path": "packs/legendary-luminaries-archetypes",
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e"
-    },
-     {
-      "name": "legendary-luminaries-spells",
-      "label": "Legendary Luminaries - Spells",
-      "path": "packs/legendary-luminaries-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-actions",
-      "label": "Blackpowder - Actions",
-      "path": "packs/blackpowder-actions",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-equipment",
-      "label": "Blackpowder - Equipment",
-      "path": "packs/blackpowder-equipment",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-     {
-      "name": "blackpowder-feats",
-      "label": "Blackpowder - Feats",
-      "path": "packs/blackpowder-feats",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      "flags": {}
     },
     {
-      "name": "blackpowder-subclass",
-      "label": "Blackpowder - Subclass",
-      "path": "packs/blackpowder-subclass",
+      "name": "feats-feature-effects",
+      "label": "Feat/Feature Effects",
+      "path": "packs/feats-feature-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spell-effects",
+      "label": "Spell Effects",
+      "path": "packs/spell-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Keystone Archetypes - Disc Rider",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "familiar-abilities",
+      "label": "Familiar Abilities",
+      "path": "packs/familiar-abilities",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e"
+      "system": "pf2e",
+      "flags": {}
     }
   ],
- "flags": {
-  "southern-realm-games": {
-    "pf2e-homebrew": {
-      "featTraits": {
-        "reassess": "Reassess"
-      },
-      "weaponTraits": {
-        "attached-to-fortress-shield": {
-          "label": "Attached to Fortress Shield",
-          "description": "A weapon with this trait is attached to a Fortress Shield"
-        },
-        "attached-to-tower-shield": {
-          "label": "Attached to Tower Shield",
-          "description": "A weapon with this trait is attached to a Tower Shield"
-        },
-        "imprecise": {
-          "label": "Imprecise",
-          "description": "A weapon with this trait cannot deal precision damage."
-        }
-      }
-    }
-  }
-},
-  "packFolders":[
+  "packFolders": [
     {
-      "name": "Southern Realm Games",
-    "sorting": "m",
-    "color": "#974ADC",
-    "packs": [
-      "blackpowder-actions",
-      "blackpowder-equipment",
-      "blackpowder-feats",
-      "blackpowder-subclass",
-      "legendary-luminaries-actions",
-      "legendary-luminaries-archetypes",
-      "legendary-luminaries-spells"
-    ]
+      "name": "Keystone Archetypes - The Disc Rider",
+      "sorting": "m",
+      "color": null,
+      "packs": [
+        "journal",
+        "backgrounds",
+        "class-features",
+		"familiar-abilities",
+        "feats-feature-effects",
+        "equipment",
+        "feats",
+        "spell-effects",
+        "spells"
+      ],
+      "folders": []
     }
-  ]
+  ],
+  "description": ""
 }
